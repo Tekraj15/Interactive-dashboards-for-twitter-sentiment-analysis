@@ -1,5 +1,7 @@
 # Build Interactive Dashboards with Streamlit and Python for tweet Sentimental Analysis
 
+This project aims to build an interactive dashboard for twitter sentiment analysis of US Airlines using Streamlit API from Flask, and Python.
+
 # Implementation workflow:
 
 Project Overview and Demo
