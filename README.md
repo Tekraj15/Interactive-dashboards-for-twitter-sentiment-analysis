@@ -7,6 +7,7 @@ This project aims to build an interactive dashboard for twitter sentiment analys
 
 # Implementation workflow:
 We'll implememt thsi project in varios steps as follow: 
+
 Project Overview and Demo
 
 Turn Simple Python Scripts into Web Apps
