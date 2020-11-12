@@ -6,7 +6,8 @@ from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
-
+import nltk
+from nltk.corpus import stopwords
 
 DATA_URL = (
     "E:\Jupyter Notebook\sentimentdashboard\Tweets.csv"
