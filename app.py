@@ -120,6 +120,9 @@ if len(choice) > 0:
     stml.plotly_chart(fig_0)
 
 #Text Preprocessing and Word Cloud visualization of sentiments
+stop_words.update(',',';','!','?','.','(',')','$','#','+',':','...',' ','')
+words=data['text'].dropna().apply(nltk.word_tokenize)
+
 stml.sidebar.header("Word Cloud")
 word_sentiment = stml.sidebar.radio('Display word cloud for what sentiment?', ('positive', 'neutral', 'negative'))
 if not stml.sidebar.checkbox("Close", True, key='3'):
